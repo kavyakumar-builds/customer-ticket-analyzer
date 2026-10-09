@@ -1,0 +1,29 @@
+# Environment secrets
+.env
+*.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets and runtime cache
+.streamlit/secrets.toml
+
+.env.*
+!.env.example

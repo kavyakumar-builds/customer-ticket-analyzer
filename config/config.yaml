@@ -1,0 +1,24 @@
+# Configuration for AI-Powered Customer Support Ticket Analyzer
+# Non-sensitive settings only. API keys must be set in .env or environment variables.
+
+llm:
+  # Model name for Google Gemini API
+  # Popular options: 'gemini-2.5-flash' (fast & latest), 'gemini-1.5-flash' (standard), 'gemini-2.0-flash'
+  model: "gemini-2.5-flash"
+  
+  # Temperature: 0.0 - 0.2 ensures deterministic classification and strict JSON structure
+  temperature: 0.1
+  
+  # Maximum tokens for response (sufficient for JSON output with summary and response draft)
+  max_tokens: 600
+  
+  # Request timeout in seconds
+  timeout_seconds: 30
+
+prompt:
+  # Path to the prompt template file relative to the project root
+  template_path: "prompts/ticket_analysis.txt"
+
+app:
+  title: "AI-Powered Customer Support Ticket Analyzer"
+  version: "1.0.0"

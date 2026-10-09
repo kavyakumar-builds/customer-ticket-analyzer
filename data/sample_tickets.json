@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "ticket": "I was charged twice for my subscription this month and I want a refund for the extra payment.",
+    "expected_category": "Billing"
+  },
+  {
+    "id": 2,
+    "ticket": "My invoice #4928 shows an incorrect tax calculation. Please issue a corrected bill.",
+    "expected_category": "Billing"
+  },
+  {
+    "id": 3,
+    "ticket": "Why did my monthly bill increase by $15 without any prior notification or consent?",
+    "expected_category": "Billing"
+  },
+  {
+    "id": 4,
+    "ticket": "My credit card was declined even though I have sufficient balance. Can you re-try the payment?",
+    "expected_category": "Billing"
+  },
+  {
+    "id": 5,
+    "ticket": "Every time I click on the export button, the application crashes with error code ERR_500.",
+    "expected_category": "Technical"
+  },
+  {
+    "id": 6,
+    "ticket": "The mobile app is stuck on the loading splash screen after the latest version 3.2 update.",
+    "expected_category": "Technical"
+  },
+  {
+    "id": 7,
+    "ticket": "Our API webhooks have stopped delivering events since 2:00 PM UTC today.",
+    "expected_category": "Technical"
+  },
+  {
+    "id": 8,
+    "ticket": "The search functionality is not returning any results even for exact keyword matches.",
+    "expected_category": "Technical"
+  },
+  {
+    "id": 9,
+    "ticket": "I am locked out of my account because I lost my phone and cannot complete two-factor authentication.",
+    "expected_category": "Account"
+  },
+  {
+    "id": 10,
+    "ticket": "I never received the password reset email after clicking 'Forgot Password' three times.",
+    "expected_category": "Account"
+  },
+  {
+    "id": 11,
+    "ticket": "I need to change the primary email address registered to my corporate team account.",
+    "expected_category": "Account"
+  },
+  {
+    "id": 12,
+    "ticket": "Someone attempted an unauthorized login to my profile from another country. Please secure my account.",
+    "expected_category": "Account"
+  },
+  {
+    "id": 13,
+    "ticket": "The item I received was damaged upon arrival. I want to return it and receive a full refund.",
+    "expected_category": "Refund"
+  },
+  {
+    "id": 14,
+    "ticket": "I canceled within your 30-day money-back guarantee period. When will the refund appear in my bank?",
+    "expected_category": "Refund"
+  },
+  {
+    "id": 15,
+    "ticket": "I bought the annual plan by mistake instead of the monthly plan. Please refund the difference.",
+    "expected_category": "Refund"
+  },
+  {
+    "id": 16,
+    "ticket": "Your service did not deliver the promised uptime. Please issue a refund for this month's charge.",
+    "expected_category": "Refund"
+  },
+  {
+    "id": 17,
+    "ticket": "I would like to upgrade our company tier from the Basic plan to the Enterprise annual plan.",
+    "expected_category": "Subscription"
+  },
+  {
+    "id": 18,
+    "ticket": "Please cancel my auto-renewing subscription at the end of the current billing cycle.",
+    "expected_category": "Subscription"
+  },
+  {
+    "id": 19,
+    "ticket": "How do I downgrade my family plan to an individual plan without losing my saved history?",
+    "expected_category": "Subscription"
+  },
+  {
+    "id": 20,
+    "ticket": "My tracking number TRK-882910 has not updated for 6 days. Where is my package?",
+    "expected_category": "Shipping"
+  },
+  {
+    "id": 21,
+    "ticket": "The courier marked my delivery as 'Delivered' but nothing was left at my front door or mailbox.",
+    "expected_category": "Shipping"
+  },
+  {
+    "id": 22,
+    "ticket": "Can I change the delivery address for my recent order #9928 before it ships tomorrow morning?",
+    "expected_category": "Shipping"
+  },
+  {
+    "id": 23,
+    "ticket": "Do you have any partnership or affiliate programs available for content creators?",
+    "expected_category": "Other"
+  },
+  {
+    "id": 24,
+    "ticket": "Can you provide your legal compliance and GDPR data retention policy documentation?",
+    "expected_category": "Other"
+  },
+  {
+    "id": 25,
+    "ticket": "I just wanted to say thank you to Sarah from your support team for her exceptional help yesterday!",
+    "expected_category": "Other"
+  }
+]
